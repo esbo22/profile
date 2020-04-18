@@ -1,69 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
   <head>
-
-      <meta charset="UTF-8">
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-      <title>My profile</title>
-      <link rel="stylesheet" href="style.css">
-      <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,500,700,900" rel="stylesheet">
-      <script src="https://kit.fontawesome.com/6712da3503.js" crossorigin="anonymous"></script>
-
+    <meta charset="UTF-8">
+    <title>Ma landing page</title>
+    <script src="https://kit.fontawesome.com/6712da3503.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
   </head>
-
-<body>
-
+  <body>
+    <!-- code Banner section -->
+    <div class="banner">
+      <div class="container">
+        <h1>Johnny Girault</h1>
+        <p>Developpeur Full Stack RoR.</p>
+        <a class="btn-primary" href="#propose">go !</a>
+      </div>
+    </div>
+    <!-- code section body -->
     <div class="container">
-      <div class="card-white" id="introduction">
-        <h1>./My_Profile</h1>
-        <img src="images/johnny_id.jpg" class="img-circle" width="100px" alt="Johnny Girault">
-        <p>
-          Fan d'informatique blablabla.
-        </p>
-        <a href="#" class="btn-red">Mon site</a>
-      </div>
-      <div class="card-white">
-        <h2>Design</h2>
-        <p>
-          Bla bla bla<strong>Design</strong>.
-        </p>
-      </div>
-      <div class="card-white">
-        <h2>Dev-ops</h2>
-        <p>
-          Différent projet <strong>Dev-ops.ovh</strong>.
-        </p>
-      </div>
-      <div class="card-white">
-        <h2>🏍️ Moto 🏍️</h2>
-        <p>
-          <strong>Moto_o_O</strong>.
-        </p>
-      </div>
-      <div class="card-white">
-        <h2>Follow me</h2>
-        <ul class="list-inline">
-          <li>
-            <a href="https://github.com/esbo22" target="_blank">
-              <i class="fab fa-github-square"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://danstonchat.com/" target="_blank">
-              <i class="fas fa-cat"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://facebook.fr" target="_blank">
-              <i class="fab fa-facebook"></i>
-            </a>
-          </li>
-        </ul>
+      <h2 class="text-center" id="propose">Ce que je vous propose</h2>
+      <div class="cards">
+
+        <div class="card">
+          <img src="images/apply.svg" alt="">
+          <h4>Application</h4>
+          <p>Création application web personnalisé web et mobile first.</p>
+          <p>de l'idée à la sortie du mvp</p>
+        </div>
+
+        <div class="card">
+          <img src="images/learn.svg" alt="">
+          <h4>Maintenance</h4>
+          <p>Gestion de parc, sauvegarde, installation et maintenance informatique.</p>
+        </div>
+
+        <div class="card">
+          <img src="images/product.svg" alt="">
+          <h4>Code</h4>
+          <p>Entiérement codé à la main pour une personnalisation maximum ou création de site plus rapide sous wordpress.</p>
+        </div>
+
       </div>
     </div>
 
+    <!-- code footer -->
+    <div class="footer">
+      <div class="links">
+        <a href="#"><i class="fab fa-fw fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-fw fa-github"></i></a>
+        <a href="#"><i class="fab fa-fw fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-fw fa-instagram"></i></a>
+        <p>johnny.girault.tech <i class="fas fa-heart"></i>.</p>
+      </div>
+    </div>
 
-
-</body>
+  </body>
 </html>
